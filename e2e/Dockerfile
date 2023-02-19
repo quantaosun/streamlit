@@ -1,4 +1,4 @@
-FROM circleci/python:3.7.11
+FROM circleci/python:3.7.11@sha256:79095a9494c49cdc4c8e9a52cf092ac3908066ed4cdccaf768586aae1c2c90a8
 
 SHELL ["/bin/bash", "-c"]
 ENV PYTHONUNBUFFERED 1
